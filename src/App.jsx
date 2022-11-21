@@ -76,11 +76,18 @@ function App() {
       setInfo(!info);
     };
 
+    const styles = {
+      paperContainer: {
+          height: 1356,
+          backgroundImage: `url(${"../public/Fondo.png"})`,
+      }
+  };
+
   return (
-      <Grid container spacing={10}>  
+      <Grid container spacing={10} style={styles.paperContainer}>  
         <Grid item md={4} sm={12}>
           <Typography
-            sx={{color: "black" }} align="center" variant="h2">
+            sx={{color: "white" }} align="center" variant="h2" backgroundColor="black">
             TinderDog
           </Typography>
           {cargando ? (
@@ -167,7 +174,7 @@ function App() {
         </Grid>
 
         <Grid item md={4} sm={6} sx={{ overflowY: 'auto', maxHeight: '85vh' }}>
-          <Typography align="center" variant="h5">ACEPTADOS</Typography>
+          <Typography align="center" variant="h5" backgroundColor="green">ACEPTADOS</Typography>
             {aceptados.map((aceptado) => (
             <Card key={aceptado.name} sx={{
               backgroundColor: "green",
@@ -220,7 +227,7 @@ function App() {
         </Grid>
 
         <Grid item md={4} sm={6} sx={{ overflowY: 'auto', maxHeight: '85vh' }}>
-          <Typography align="center" variant="h5">RECHAZADOS</Typography>
+          <Typography align="center" variant="h5" backgroundColor="red">RECHAZADOS</Typography>
           {rechazados.map((rechazado) => (
             <Card key={rechazado.name} sx={{
               backgroundColor: "red",
