@@ -9,5 +9,5 @@ Ing. de ejecucion en computacion e informatica
 ## Librerias
 - Los necesarios
 ## Version Node.js
-v16.18.0
+- v16.18.0
 
