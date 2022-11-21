@@ -92,12 +92,12 @@ function App() {
           </Typography>
           {cargando ? (
             <Card>
-              <CardMedia
+              {/* <CardMedia
               component="img"
               height="300"    
               image={dog.img}
               alt="DOGO"
-              />
+              /> */}
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   <CircularProgress/>
