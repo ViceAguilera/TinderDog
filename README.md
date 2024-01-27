@@ -7,7 +7,8 @@ Vicente Aguilera
 Ing. de ejecucion en computacion e informatica
 
 ## Librerias
-- Los necesarios
-## Version Node.js
-- v16.18.0
-
+- React
+- React Query
+- MaterialUI
+- Node.js
+- Axios
