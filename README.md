@@ -5,12 +5,32 @@ Aplicación web al estilo "Tinder" para perros: muestra fotos aleatorias de perr
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-3-646CFF?style=flat&logo=vite&logoColor=white)
 ![Material UI](https://img.shields.io/badge/Material%20UI-5-007FFF?style=flat&logo=mui&logoColor=white)
-![Licencia MIT](https://img.shields.io/badge/licencia-MIT-blue?style=flat)
+![Estado](https://img.shields.io/badge/estado-ejercicio%20académico-lightgrey?style=flat)
+![Licencia](https://img.shields.io/badge/licencia-MIT-blue?style=flat)
 ![Último commit](https://img.shields.io/github/last-commit/ViceAguilera/TinderDog?style=flat)
+
+<p align="center"><img src="docs/screenshot.png" alt="Captura de TinderDog con la tarjeta de un perro y las listas de aceptados y rechazados" width="800"></p>
+
+## Tabla de contenidos
+
+- [Descripción](#descripción)
+- [Estado del proyecto](#estado-del-proyecto)
+- [Características](#características)
+- [Tecnologías](#tecnologías)
+- [Requisitos](#requisitos)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Licencia](#licencia)
+- [Autor](#autor)
 
 ## Descripción
 
 Ejercicio académico desarrollado en React. Cada tarjeta muestra una imagen aleatoria obtenida de la API pública [Dog CEO](https://dog.ceo/dog-api/), junto con un nombre y una descripción de texto generados aleatoriamente. El usuario decide si acepta o rechaza al perro, y puede mover los perros ya clasificados de una lista a la otra.
+
+## Estado del proyecto
+
+**Ejercicio académico.** Proyecto de práctica en React, sin desarrollo activo.
 
 ## Características
 
